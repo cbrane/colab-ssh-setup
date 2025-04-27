@@ -6,7 +6,7 @@ echo "Setting up SSH access for Google Colab..."
 
 # Clone the repository containing the authorized_keys file
 # Note: Replace <your-user> with your GitHub username before running in Colab
-REPO_URL="https://github.com/<your-user>/colab-ssh-setup.git"
+REPO_URL="https://github.com/cbrane/colab-ssh-setup.git"
 echo "Cloning repository from $REPO_URL..."
 git clone --depth 1 $REPO_URL
 
